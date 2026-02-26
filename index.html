@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twoja Firma | Nowoczesne Technologie</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body class="bg-gray-950 text-gray-200 scroll-smooth">
+
+<!-- NAV -->
+<nav class="fixed w-full bg-gray-950/80 backdrop-blur border-b border-gray-800 z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-6">
+    <div class="text-xl font-bold text-white tracking-wide">
+      TWOJAFIRMA
+    </div>
+    <div class="space-x-8 hidden md:block">
+      <a href="#oferta" class="hover:text-blue-400">Oferta</a>
+      <a href="#o-nas" class="hover:text-blue-400">O firmie</a>
+      <a href="#kontakt" class="hover:text-blue-400">Kontakt</a>
+      <a href="https://twojsklep.myshopify.com" target="_blank"
+         class="bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-500 transition">
+         Sklep
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center text-center px-6 bg-gradient-to-br from-gray-950 via-gray-900 to-blue-950">
+  <div>
+    <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
+      Nowoczesne rozwiązania<br>dla biznesu
+    </h1>
+    <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+      Tworzymy technologie, które przyspieszają rozwój firm i zwiększają efektywność operacyjną.
+    </p>
+    <a href="#kontakt"
+       class="bg-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-500 transition">
+       Skontaktuj się z nami
+    </a>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section id="oferta" class="py-24 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-16 text-white">Nasze usługi</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+
+      <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition">
+        <h3 class="text-xl font-semibold mb-4 text-white">Rozwiązania IT</h3>
+        <p class="text-gray-400">
+          Projektowanie i wdrażanie systemów dopasowanych do potrzeb biznesu.
+        </p>
+      </div>
+
+      <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition">
+        <h3 class="text-xl font-semibold mb-4 text-white">Automatyzacja</h3>
+        <p class="text-gray-400">
+          Optymalizacja procesów i zwiększenie efektywności operacyjnej.
+        </p>
+      </div>
+
+      <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition">
+        <h3 class="text-xl font-semibold mb-4 text-white">Wsparcie technologiczne</h3>
+        <p class="text-gray-400">
+          Stałe wsparcie i rozwój infrastruktury IT.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- O FIRMIE -->
+<section id="o-nas" class="py-24 bg-gray-950">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-8 text-white">O firmie</h2>
+    <p class="text-gray-400 text-lg leading-relaxed">
+      Jesteśmy zespołem specjalistów technologicznych z doświadczeniem w realizacji projektów
+      dla klientów biznesowych. Stawiamy na jakość, bezpieczeństwo i skalowalność rozwiązań.
+    </p>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt" class="py-24 bg-gray-900">
+  <div class="max-w-xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12 text-white">Kontakt</h2>
+
+    <form action="https://formspree.io/f/TWOJ_ID" method="POST"
+          class="bg-gray-800 p-10 rounded-2xl border border-gray-700 space-y-6">
+
+      <input type="text" name="name" placeholder="Imię i nazwisko"
+             class="w-full bg-gray-900 border border-gray-700 p-4 rounded-lg focus:outline-none focus:border-blue-500"
+             required>
+
+      <input type="email" name="email" placeholder="Email"
+             class="w-full bg-gray-900 border border-gray-700 p-4 rounded-lg focus:outline-none focus:border-blue-500"
+             required>
+
+      <textarea name="message" placeholder="Wiadomość"
+                class="w-full bg-gray-900 border border-gray-700 p-4 rounded-lg h-32 focus:outline-none focus:border-blue-500"
+                required></textarea>
+
+      <button type="submit"
+              class="w-full bg-blue-600 py-4 rounded-xl text-lg font-semibold hover:bg-blue-500 transition">
+        Wyślij wiadomość
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-10 bg-gray-950 border-t border-gray-800 text-center text-gray-500">
+  © 2026 TwojaFirma. Wszelkie prawa zastrzeżone.
+</footer>
+
+</body>
+</html>
