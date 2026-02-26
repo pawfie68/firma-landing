@@ -1,30 +1,33 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simulat3D | Symulatory Lotów i Oprogramowanie</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body class="bg-black text-gray-200 scroll-smooth">
+<body class="bg-void text-body scroll-smooth">
 
 <!-- NAV -->
-<nav class="fixed w-full bg-black/80 backdrop-blur border-b border-gray-800 z-50">
+<nav class="fixed w-full nav-blur border-b border-line z-50">
   <div class="max-w-7xl mx-auto flex justify-between items-center p-6">
     
     <div class="flex items-center space-x-3">
-      <img src="assets/logo.svg" class="h-10">
-      <span class="text-xl font-bold tracking-wider text-white">Simulat3D</span>
+      <img src="LOGO2026/LOGO_SAMOLOT_ONLY.svg" class="h-10 w-10" alt="Simulat3D logo">
+      <span class="text-xl font-bold tracking-wider brand-text text-white">Simulat3D</span>
     </div>
 
     <div class="space-x-8 hidden md:block">
-      <a href="#produkty" class="hover:text-cyan-400 transition">Symulatory</a>
-      <a href="#software" class="hover:text-cyan-400 transition">Oprogramowanie</a>
-      <a href="#kontakt" class="hover:text-cyan-400 transition">Kontakt</a>
+      <a href="#produkty" class="hover:text-brand transition">Symulatory</a>
+      <a href="#software" class="hover:text-brand transition">Oprogramowanie</a>
+      <a href="#kontakt" class="hover:text-brand transition">Kontakt</a>
       <a href="https://twojsklep.myshopify.com" target="_blank"
-         class="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-cyan-400 transition">
+         class="bg-brand text-ink px-5 py-2 rounded-lg font-semibold hover:bg-brand-strong transition">
          Sklep
       </a>
     </div>
@@ -32,46 +35,46 @@
 </nav>
 
 <!-- HERO -->
-<section class="min-h-screen flex items-center justify-center text-center px-6 bg-gradient-to-br from-black via-gray-900 to-cyan-950">
+<section class="min-h-screen flex items-center justify-center text-center px-6 hero">
   <div>
     <h1 class="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
       Profesjonalne<br>
-      <span class="text-cyan-400 glow">Symulatory Lotów</span>
+      <span class="text-brand glow">Symulatory Lotów</span>
     </h1>
-    <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+    <p class="text-xl text-muted mb-10 max-w-2xl mx-auto">
       Projektujemy zaawansowane systemy symulacji lotniczej oraz oprogramowanie
       wspierające szkolenia i rozwój technologii lotniczych.
     </p>
     <a href="#kontakt"
-       class="bg-cyan-500 text-black px-8 py-4 rounded-xl text-lg font-semibold hover:bg-cyan-400 transition">
+       class="bg-brand text-ink px-8 py-4 rounded-xl text-lg font-semibold hover:bg-brand-strong transition">
        Zapytaj o ofertę
     </a>
   </div>
 </section>
 
 <!-- PRODUKTY -->
-<section id="produkty" class="py-24 bg-gray-950">
+<section id="produkty" class="py-24 bg-surface">
   <div class="max-w-7xl mx-auto px-6">
     <h2 class="text-4xl font-bold text-center mb-16 text-white">Symulatory</h2>
     <div class="grid md:grid-cols-3 gap-10">
 
       <div class="card-tech">
         <h3 class="text-xl font-semibold mb-4 text-white">Symulatory szkoleniowe</h3>
-        <p class="text-gray-400">
+        <p class="text-muted">
           Realistyczne środowiska treningowe dla pilotów i ośrodków szkoleniowych.
         </p>
       </div>
 
       <div class="card-tech">
         <h3 class="text-xl font-semibold mb-4 text-white">Symulatory VR</h3>
-        <p class="text-gray-400">
+        <p class="text-muted">
           Immersyjne doświadczenia z wykorzystaniem technologii VR i 3D.
         </p>
       </div>
 
       <div class="card-tech">
         <h3 class="text-xl font-semibold mb-4 text-white">Systemy custom</h3>
-        <p class="text-gray-400">
+        <p class="text-muted">
           Dedykowane rozwiązania symulacyjne dopasowane do potrzeb klienta.
         </p>
       </div>
@@ -81,37 +84,37 @@
 </section>
 
 <!-- SOFTWARE -->
-<section id="software" class="py-24 bg-black">
+<section id="software" class="py-24 bg-void">
   <div class="max-w-5xl mx-auto px-6 text-center">
     <h2 class="text-4xl font-bold mb-8 text-white">Oprogramowanie</h2>
-    <p class="text-gray-400 text-lg leading-relaxed mb-8">
+    <p class="text-muted text-lg leading-relaxed mb-8">
       Tworzymy autorskie silniki symulacyjne, systemy kontroli parametrów lotu
       oraz narzędzia analityczne wspierające proces szkoleniowy.
     </p>
     <div class="grid md:grid-cols-3 gap-8 mt-12">
       <div class="stat-box">
-        <span class="text-3xl font-bold text-cyan-400">3D</span>
-        <p class="text-gray-500">Zaawansowana grafika</p>
+        <span class="text-3xl font-bold text-brand">3D</span>
+        <p class="text-dim">Zaawansowana grafika</p>
       </div>
       <div class="stat-box">
-        <span class="text-3xl font-bold text-cyan-400">Real-Time</span>
-        <p class="text-gray-500">Symulacja w czasie rzeczywistym</p>
+        <span class="text-3xl font-bold text-brand">Real-Time</span>
+        <p class="text-dim">Symulacja w czasie rzeczywistym</p>
       </div>
       <div class="stat-box">
-        <span class="text-3xl font-bold text-cyan-400">Modularność</span>
-        <p class="text-gray-500">Elastyczna architektura</p>
+        <span class="text-3xl font-bold text-brand">Modularność</span>
+        <p class="text-dim">Elastyczna architektura</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- KONTAKT -->
-<section id="kontakt" class="py-24 bg-gray-950">
+<section id="kontakt" class="py-24 bg-surface">
   <div class="max-w-xl mx-auto px-6">
     <h2 class="text-4xl font-bold text-center mb-12 text-white">Kontakt</h2>
 
     <form action="https://formspree.io/f/TWOJ_ID" method="POST"
-          class="bg-black p-10 rounded-2xl border border-gray-800 space-y-6">
+          class="bg-void p-10 rounded-2xl border border-line space-y-6">
 
       <input type="text" name="name" placeholder="Imię i nazwisko"
              class="input-tech" required>
@@ -123,14 +126,14 @@
                 class="input-tech h-32" required></textarea>
 
       <button type="submit"
-              class="w-full bg-cyan-500 text-black py-4 rounded-xl text-lg font-semibold hover:bg-cyan-400 transition">
+              class="w-full bg-brand text-ink py-4 rounded-xl text-lg font-semibold hover:bg-brand-strong transition">
         Wyślij wiadomość
       </button>
     </form>
   </div>
 </section>
 
-<footer class="py-10 bg-black border-t border-gray-800 text-center text-gray-500">
+<footer class="py-10 bg-void border-t border-line text-center text-dim">
   © 2026 Simulat3D. All rights reserved.
 </footer>
 
