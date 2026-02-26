@@ -2,6 +2,40 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+.glow {
+  text-shadow: 0 0 15px rgba(34, 211, 238, 0.6);
+}
+
+.card-tech {
+  background: #0f172a;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 1px solid #1f2937;
+  transition: 0.3s;
+}
+
+.card-tech:hover {
+  border-color: #22d3ee;
+  transform: translateY(-5px);
+}
+
+.stat-box {
+  background: #0f172a;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #1f2937;
+}
+
+.input-tech {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #1f2937;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  color: white;
+}
+
+.input-tech:focus {
+  outline: none;
+  border-color: #22d3ee;
 }
